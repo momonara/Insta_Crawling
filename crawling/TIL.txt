@@ -1,0 +1,12 @@
+2020-09-20
+
+1. image link
+
+  인스타그램 사진 링크에서 소스보기 -> "display_url" 찾기
+  첫번째 display_url 은 가장 처음에 보이는 사진이지만 두번째에서도 다시 나옴 -> skip 해야 함
+  두번째 display_url 부터 차례로 처음에 보이는 사진, 두번째로 보이는 사진... -> 여기서부터 링크 가져와야 함
+  display_url 뒤에 나오는 링크에서 '\u0026' 을 '&' 으로 대체해야 사진 나옴. 대체 안 하면 error message 만 출력됨
+  
+2. selenium
+
+  Web automation 도구 ( http://pythonstudy.xyz/python/article/404-%ED%8C%8C%EC%9D%B4%EC%8D%AC-Selenium-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0 )
